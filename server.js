@@ -22,7 +22,7 @@ var passport = passport();
 app.listen(80);
 
 // Log the server status to the console
-console.log('Server running at http://localhost:3000/');
+console.log('Server running at http://localhost:80/');
 
 // Use the module.exports property to expose our Express application instance for external usage
 module.exports = app;
